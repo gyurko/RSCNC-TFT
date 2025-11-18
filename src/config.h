@@ -35,7 +35,7 @@
 
 
 // select your language between EN, FR, DE
-#define LANGUAGE FR
+#define LANGUAGE EN
    
 // The firmware can handle until 6 axes.
 // If you are using a 4-axis CNC, replace XYZ by XYZA - If you are using a 5-axis CNC, replace XYZ by XYZAB - If you are using a 6-axis CNC, replace XYZ by XYZABC
@@ -230,7 +230,7 @@
 
 #define N_LOG_LINE_MAX 24 // was 12 when we used a bigger font
 
-#define NO_WIFI 0               // code used to identify the wifi mode
+#define NO_WIFI 1               // code used to identify the wifi mode
 #define ESP32_ACT_AS_STATION 1
 #define ESP32_ACT_AS_AP 2
 
@@ -252,9 +252,6 @@
 #define _SETAB_STRING "G10 L20 P1 A0 B0\n"
 #define _SETABC_STRING "G10 L20 P1 A0 B0 C0\n"
 
-
-
 #include "TFT_eSPI.h"
-
 
 #endif
