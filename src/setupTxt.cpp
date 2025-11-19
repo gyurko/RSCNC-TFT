@@ -1,4 +1,6 @@
+#include <Arduino.h>
 
+#include <SPIFFS.h>
 #include "config.h"
 #include "setupTxt.h"
 #include "language.h"

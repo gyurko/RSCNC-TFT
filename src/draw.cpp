@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#include "SPIFFS.h"
 #include "config.h"
 #include "draw.h"
 #include "setupTxt.h"
@@ -12,7 +14,6 @@
 #include "touch.h"
 #include "grbl_file.h"
 #include "icons.h"
-
 
 #define LABELS9_FONT &FreeSans9pt7b    // Key label font 2
 #define LABELS12_FONT &FreeSans12pt7b

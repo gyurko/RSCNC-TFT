@@ -4,7 +4,7 @@
 //         allows to configure and run in AP mode instead of STA
 //         implement buttons and remove button Home
 
-
+#include <Arduino.h>
 #include <SPI.h>
 #include "SdFat.h"
 #include <WiFi.h>              // Built-in
@@ -15,6 +15,7 @@
 #include <Preferences.h>
 #include "draw.h"
 #include "setupTxt.h"
+#include "SPIFFS.h"
 //**************************************************** ADD By SMARTELECTRONIC*******************************
 #include <WiFiClient.h>
 #include <ESPmDNS.h>
